@@ -137,7 +137,7 @@ ul {
   }
 
   .logo {
-    display: none;
+    margin: 0;
   }
 
   .navbar-nav {
