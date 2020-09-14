@@ -20,7 +20,3 @@ function toggleTheme() {
 }
 
 document.getElementById('themeButton').onclick = toggleTheme;
-
-function doStuff() {
-  console.log('hello');
-}
