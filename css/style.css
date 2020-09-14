@@ -50,7 +50,8 @@ link:focus {
 }
 
 .skill-container,
-.resource-container {
+.resource-container,
+.tool-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -58,7 +59,8 @@ link:focus {
 }
  
 .skill-container-items,
-.resource-container-items {
+.resource-container-items,
+.tool-items {
   width: 4rem;
   height: 4rem;
   padding: .5rem;
