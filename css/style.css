@@ -150,7 +150,7 @@ ul {
   }
 
   .logo {
-    margin: 0;
+    display: none;
   }
 
   .navbar-nav {
