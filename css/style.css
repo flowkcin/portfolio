@@ -9,6 +9,10 @@
   --transition-speed: 600ms;
 }
 
+* {
+  user-select: none;
+}
+
 body {
   list-style-type: none;
   color: black;
