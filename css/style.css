@@ -15,8 +15,8 @@
 
 body {
   list-style-type: none;
-  color: black;
-  background-color: white;
+  color: ;
+  background-color: aqua;
   margin: 0;
   padding: 0;
 }
@@ -59,15 +59,15 @@ link:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: .25rem;
+  padding: 0.25rem;
 }
- 
+
 .skill-container-items,
 .resource-container-items,
 .tool-items {
   width: 4rem;
   height: 4rem;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .navbar {
@@ -152,8 +152,7 @@ link:focus {
   transition: var(--transition-speed);
 }
 
-.logo-text
-{
+.logo-text {
   display: inline;
   position: absolute;
   left: -999px;
@@ -205,13 +204,11 @@ link:focus {
     display: inline;
   }
 
-  .navbar:hover .logo svg
-  {
+  .navbar:hover .logo svg {
     margin-left: 11rem;
   }
 
-  .navbar:hover .logo-text
-  {
+  .navbar:hover .logo-text {
     left: 0px;
   }
 }
